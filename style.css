@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#nav-bar{
+    background-color:#CC5500;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#discord-icon{
+ padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+#facebook-icon{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+    color: white;  
+}
+#UTlogo{
+    width: 300px;
+}
+#header-title{
+    margin-right: 50px;
+}
+#main-container{
+    background-color: #eeeeee;
+    border-bottom: 5px;
+    margin-bottom: 5px;
+}
+#main-content{
+    background-color: white;
+    border: 50px solid #eeeeee;
+    padding: 30px;
+    min-height: 500px;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+#main-calendar{
+    background-color: white;
+    border: 50px solid #eeeeee;
+    padding: 30px;
+    min-height: 500px;
+    font-size: 20px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#top-logo{
+    height: 28px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+hr{
+    border-top: 1px solid #a9a9a9;
+}
+#in-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+#deer{
+    height: 150px;
+}
+#main-text{
+    font-size: 100px;
+}
+
+#things {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#things li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#things li a{
+    color: black;
+    text-decoration: none;
+}
+#things li a:hover{
+    color: #CC5500;
+    text-decoration: none;
+}
+#footer-nav{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+#footer-list a{
+    text-decoration: none;
+}
+aside{
+    min-width: 400px;
+    min-height: 400px;
+    float: left;
+    margin-right: 35px;
+    clear: both;
+}
+footer{
+    border-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 1200px) {
+    #deer {
+      display: none;
+    }
+}
+  @media screen and (max-width: 926px) {
+    #in-between {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+    #header-title{
+        margin: 0;
+    }
+}
+  @media screen and (max-width: 660px) {
+   body{
+    min-width: 660px;
+   }
+}
+  table{
+    table-layout: fixed;
+  }
+  tr{
+    border-bottom: 200px solid #a9a9a9;
+  }
+  td{
+    border: 1px solid #a9a9a9;
+    padding: 10px;
+    overflow: hidden;
+    white-space: wrap;
+  }
+  td:nth-child(1){
+    width: 5%;
+  }
+  td:nth-child(2){
+    width: 10%;
+  }
+  tr:nth-child(even) {
+    background-color:#eeeeee;
+  }
+  td{
+    font-size: small;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  iframe, object, embed {
+    max-width: 100%;
+}
